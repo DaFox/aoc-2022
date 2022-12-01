@@ -1,0 +1,13 @@
+pub mod day01;
+
+pub fn read_lines(path: &str) -> Vec<String> {
+    let input = std::fs::read(path)
+        .expect("Unable to open input file");
+
+    std::str::from_utf8(&input)
+        .unwrap()
+        .lines()
+        .map(str::to_string)
+        .collect()
+}
+

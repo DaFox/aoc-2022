@@ -1,7 +1,7 @@
 use crate::read_lines;
 
 pub fn solve() {
-    let lines = read_lines("input_day01");
+    let lines = read_lines("data/input_day01");
 
     let sums = lines
 	.split(|s| (*s).is_empty())

@@ -1,7 +1,7 @@
 use crate::read_lines;
 
 pub fn solve() {
-    let lines = read_lines("input_day02");
+    let lines = read_lines("data/input_day02");
 
     let total:u32 = lines
         .iter()
